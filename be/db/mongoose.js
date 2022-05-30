@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 exports.connectMongoose = async () => {
 
     try {
-        await mongoose.connect(`mongodb+srv://mongodbdata123:data123data@cluster0.jsecn.mongodb.net/?retryWrites=true&w=majority`, {
+        await mongoose.connect(`mongodb+srv://cetinclk:we34dt67fg@cluster0.tbyv8he.mongodb.net/?retryWrites=true&w=majority`, {
             autoIndex: true,
             compressors: "zlib",
             minPoolSize: 10,
